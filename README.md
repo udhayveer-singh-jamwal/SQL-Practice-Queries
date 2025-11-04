@@ -9,7 +9,7 @@ This repository contains my SQL projects and practice queries for data analysis.
 ## 🛠️ Tools Used
 - MySQL Workbench
 - Power BI (for visualization)
-
+hg
 ## 💡 Sample Query
 - sql
 SELECT department, COUNT(*) 
