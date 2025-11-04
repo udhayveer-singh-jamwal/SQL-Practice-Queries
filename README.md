@@ -1,5 +1,5 @@
 # SQL Projects
-hg
+
 This repository contains my SQL projects and practice queries for data analysis.
 
 ## 📁 Projects
