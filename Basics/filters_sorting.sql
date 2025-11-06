@@ -1,4 +1,4 @@
-SELECT emp_name, salary FROM Employees
+gh SELECT emp_name, salary FROM Employees
 WHERE salary > 50000;
 SELECT emp_name, dept, salary FROM Employees
 WHERE dept = 'Engineering' AND salary >= 70000;
