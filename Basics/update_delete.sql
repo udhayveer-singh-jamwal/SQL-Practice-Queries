@@ -1,9 +1,6 @@
--- UPDATE (give 5% raise to Sales)
 UPDATE Employees
 SET salary = salary * 1.05
 WHERE dept = 'Sales';
-
--- UPDATE with NULL handling (set missing bonus to 5%)
 UPDATE Employees
 SET bonus_pct = 5.00
 WHERE bonus_pct IS NULL;
