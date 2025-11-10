@@ -7,10 +7,7 @@ FROM Employees;
 SELECT emp_name, SUBSTRING(emp_name FROM 1 FOR 3) AS short_name
 FROM Employees;
 
--- Length
 SELECT emp_name, LENGTH(emp_name) AS name_length
 FROM Employees;
-
--- Replace / Trim
 SELECT emp_name, REPLACE(emp_name, 'a', '@') AS funky_name
 FROM Employees;
