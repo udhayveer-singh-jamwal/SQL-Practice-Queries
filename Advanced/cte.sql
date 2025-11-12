@@ -1,4 +1,3 @@
--- CTE (Common Table Expression)
 WITH dept_salary AS (
   SELECT dept_id, AVG(salary) AS avg_salary
   FROM Employees
@@ -8,8 +7,6 @@ SELECT e.emp_name, e.salary, d.avg_salary
 FROM Employees e
 JOIN dept_salary d ON e.dept_id = d.dept_id
 WHERE e.salary > d.avg_salary;
-
--- Recursive CTE (find management hierarchy)
 WITH RECURSIVE emp_hierarchy AS (
   SELECT emp_id, emp_name, manager_id, 1 AS level
   FROM Employees
