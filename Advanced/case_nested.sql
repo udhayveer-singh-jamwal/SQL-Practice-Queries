@@ -1,4 +1,3 @@
--- Nested CASE for advanced conditional logic
 SELECT emp_name, dept_id, salary,
 CASE
   WHEN dept_id = 103 THEN 
