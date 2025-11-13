@@ -1,4 +1,3 @@
--- Nested subquery (multi-level)
 SELECT emp_name, salary
 FROM Employees
 WHERE salary > (
@@ -8,8 +7,6 @@ WHERE salary > (
     SELECT dept_id FROM Departments WHERE dept_name = 'Engineering'
   )
 );
-
--- Correlated subquery (row-by-row)
 SELECT emp_name, salary
 FROM Employees e
 WHERE salary > (
