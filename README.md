@@ -1,17 +1,9 @@
-# SQL Projects
+# 🧠 SQL Practice Queries (Beginner → Advanced)
 
-This repository contains my SQL projects and practice queries for data analysis.
+This repository contains all of my SQL practice files, organized from **Basics → Intermediate → Advanced** level.  
+It includes table creation, data insertion, joins, subqueries, CTEs, window functions, indexing, and more.
 
-## 📁 Projects
-- Sales Analysis
-- HR Analytics
+---
 
-## 🛠️ Tools Used
-- MySQL Workbench
-- Power BI (for visualization)
+## 📂 Folder Structure
 
-## 💡 Sample Query
-- sql
-SELECT department, COUNT(*) 
-FROM employees 
-GROUP BY department;
