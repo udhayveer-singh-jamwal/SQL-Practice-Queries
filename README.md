@@ -32,9 +32,6 @@ It includes table creation, data insertion, joins, subqueries, CTEs, window func
 - Common Table Expressions (CTE & Recursive CTE)  
 - Window Functions (RANK, DENSE_RANK, ROW_NUMBER, LAG, LEAD)  
 - Nested & Correlated Subqueries  
-- Indexing & Query Optimization  
-- Set Operators (UNION, INTERSECT, EXCEPT)  
-- Temporary Tables  
 
 ---
 
